@@ -7,3 +7,5 @@ f = (4, 5, 6)       # tuple
 g = {"name": "An", "age": 20}  # dict
 
 print(a, b, c, d, e, f, g)
+
+# Here i leaned about basic data types in Python including int, float, str, bool, list, tuple, and dict.

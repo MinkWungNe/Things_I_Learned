@@ -10,3 +10,5 @@ print("a / b =", a / b)
 print("a // b =", a // b)
 print("a % b =", a % b)
 print("a ** b =", a ** b)
+
+# Here i learned how to perform basic arithmetic operations in Python.

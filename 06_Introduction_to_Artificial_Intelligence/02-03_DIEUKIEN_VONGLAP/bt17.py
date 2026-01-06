@@ -20,3 +20,5 @@ f rỗng vì bước nhảy mặc định là 1, không thể từ 10
 g rỗng vì không có số nào trong khoảng này
 h in từ 10 đến 100, bước nhảy 10
 '''
+
+# This is just a simple exercise to demonstrate the use of range() function in Python.

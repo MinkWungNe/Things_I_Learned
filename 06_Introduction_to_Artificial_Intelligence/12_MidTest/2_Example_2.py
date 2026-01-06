@@ -70,6 +70,4 @@ print('---------- Book by Nguyễn Nhật Ánh --------')
 lib.search_by_author('Nguyễn Nhật Ánh')
 print('Total Books Value:', lib.get_total_value())
 
-#Note: Ôn thêm 'Danh sách', 'từ điển'.
-# Không cần ôn prolog
-
+# This is the mid-term test

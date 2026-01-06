@@ -12,3 +12,5 @@ elif month==2:  ## Xét năm nhuận
         print("Tháng ", month, " có 28 ngày")
 else:
     print("Tháng ", month, " không hợp lệ")
+
+# Here I learn about nested if-else statements and how to check for leap years in February.

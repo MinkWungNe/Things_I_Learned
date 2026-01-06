@@ -36,3 +36,5 @@ print(lst)
 del lst
 print("List sau khi xóa:")
 print(lst)
+
+# Here I learned how to manipulate lists in Python, including creating, appending, counting occurrences, checking for prime numbers, sorting, and deleting lists.

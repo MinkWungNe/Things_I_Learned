@@ -8,3 +8,5 @@ print("a > b:", a > b)
 print("a < b:", a < b)
 print("a >= b:", a >= b)
 print("a <= b:", a <= b)
+
+# Here I learned how to perform basic comparison operations in Python from user input.

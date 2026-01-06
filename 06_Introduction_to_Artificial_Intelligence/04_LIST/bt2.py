@@ -27,3 +27,5 @@ if kt==True:
     print("List đối xứng")
 else:
     print("List không đối xứng")
+
+# Here I learned how to create a list with random numbers, add and remove elements, and check for symmetry in a list.

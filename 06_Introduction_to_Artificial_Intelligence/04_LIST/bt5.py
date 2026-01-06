@@ -29,3 +29,5 @@ k = True
 l = False
 m = 8
 '''
+
+# Here I learned about list slicing in Python, including how to access specific elements and ranges within a list using positive and negative indices.

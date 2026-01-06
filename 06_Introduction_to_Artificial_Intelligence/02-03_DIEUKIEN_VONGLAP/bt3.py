@@ -25,3 +25,5 @@ else:
         x2=(-b+sqrt(delta))/(2*a)
         print("x1=",x1)
         print("x2=",x2)
+
+# Here I learned how to import libraries in Python and use the sqrt function to calculate square roots.

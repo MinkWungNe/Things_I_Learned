@@ -19,3 +19,5 @@ else:
                 print(f"{secondWord[0]} {firstWordwithSecondWord[int(y[1])-1]}")
             else:  ## Số hàng chục khác 1
                 print(f"{secondWord[int(y[0])-1]} {firstWordwithoutSecondWord[int(y[1])-1]}")
+                
+# Here I learned about nested conditions and string indexing in Python.

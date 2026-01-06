@@ -19,3 +19,5 @@ f = 2
 g = 5
 h = 2
 '''
+
+# Here I learned about list indexing in Python, including positive and negative indices, as well as nested indexing.

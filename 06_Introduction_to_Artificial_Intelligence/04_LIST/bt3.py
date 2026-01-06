@@ -46,3 +46,5 @@ c=int(input())
 XuatList1Chieu(LayCot(c))
 max=MAX(D)
 print("Số lớn nhất trong ma trận=",max)
+
+# Here I learned about creating and manipulating matrices (2D lists) in Python, including generating random values, accessing specific rows and columns, and finding the maximum value in the matrix.

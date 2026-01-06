@@ -3,3 +3,5 @@ if (year % 4 ==0 and year % 100 != 0) or year % 400 == 0:
     print("Năm ", year, " là năm nhuần")
 else:
     print("Năm ", year, " không nhuần")
+
+# Here I learned about if-else conditions and how to determine leap years using modulo operations.

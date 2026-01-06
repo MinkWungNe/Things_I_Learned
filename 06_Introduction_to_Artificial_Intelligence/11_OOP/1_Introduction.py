@@ -30,3 +30,8 @@ lamp.price = 40
 print('Name:', lamp.name)
 print('Price:', lamp.price)
 print('Discount:', lamp.discount)
+
+# Here I learned about:
+# 1. How to define a class in Python using the 'class' keyword.
+# 2. How to create a constructor method (__init__) to initialize object attributes.
+# 3. How to create instances (objects) of a class.

@@ -46,5 +46,4 @@ def average(numList):
 
 print(average([4,7,2,9,5]))
 
-
-
+# This is the mid-term test 

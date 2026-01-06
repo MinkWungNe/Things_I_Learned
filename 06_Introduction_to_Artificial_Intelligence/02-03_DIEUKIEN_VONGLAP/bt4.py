@@ -12,3 +12,5 @@ print('x >= 0 and x < 2:', x >= 0 and x < 2)
 print('x < 0 or x < 10:', x < 0 or x < 10)
 print('x > 0 or x < 10:', x > 0 or x < 10)
 print('x < 0 or x > 10:', x < 0 or x > 10)
+
+# Here I learned how to use comparison and logical operators in Python to evaluate conditions.

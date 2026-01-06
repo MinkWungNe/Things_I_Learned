@@ -32,3 +32,5 @@ else:
         i = k
 
 print(f"i = {i}, j = {j}, k = {k}")
+
+# Here is a sample output for the first part of the code:
