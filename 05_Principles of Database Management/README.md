@@ -1,4 +1,4 @@
-# Database Management Systems
+# Database Management Systems 
 
 This folder contains exercises and assignments from the university course **"Database Management Systems"**.  
 The course covers fundamental and advanced principles of database design and management, with a focus on SQL and MS SQL Server.
