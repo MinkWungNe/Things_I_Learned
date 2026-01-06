@@ -1,0 +1,51 @@
+'''
+Đề 4 Luyện Tập Python
+Câu 1 (Vấn đề chung): Tính Tổng các Chữ số 
+    Yêu cầu: Viết một hàm Python có tên là tinh_tong_chu_so(n) nhận vào một số nguyên dương $n$ bất kỳ. 
+    Hàm phải tính và trả về tổng các chữ số của số đó.
+    Ví dụ (Input/Output):Input: 12345
+    Output mong đợi: 15 (1 + 2 + 3 + 4 + 5)
+
+Câu 2 (Lập trình hướng đối tượng - OOP): Lớp TaiKhoanNganHang 💰
+    Yêu cầu: Định nghĩa lớp TaiKhoanNganHang (Bank Account) để thực hiện các thao tác giao dịch cơ bản.
+    1. Phương thức khởi tạo __init__
+        Mục đích: Khởi tạo đối tượng với các thuộc tính: so_tai_khoan (string), ten_chu_tai_khoan (string), và so_du (float, mặc định là 0.0).
+        Tham số: self, so_tai_khoan_tk, ten_chu_tai_khoan_tk.
+
+    2. Phương thức nap_tien(so_tien)
+        Mục đích: Tăng số dư tài khoản.
+        Cách hoạt động: Cộng so_tien vào so_du. 
+        Phải kiểm tra: nếu so_tien <= 0$, in ra thông báo lỗi và không thay đổi số dư.
+
+    3. Phương thức rut_tien(so_tien)
+        Mục đích: Giảm số dư tài khoản.
+        Cách hoạt động: Trừ so_tien khỏi so_du. 
+        Phải kiểm tra: nếu so_tien <= 0$ hoặc so_tien < so_du, in ra thông báo lỗi và không thay đổi số dư.
+'''
+
+# Câu 2
+class BankAccount:
+    def __init__(self, so_tk, ten_tk, so_du = 0.0):
+        self.so_tk = so_tk
+        self.ten_tk = ten_tk
+        self.so_du = so_du
+    
+    def Deposit(self, amount):
+        if amount <= 0:
+            print('ERROR: amount must > 0')
+            return
+        self.so_du += amount
+    
+    def Withdraw(self, amount):
+        if amount <= 0:
+            print('ERROR: amount must > 0')
+        elif self.so_du < amount:
+            print('ERROR: invalid credit.')
+        self.so_du -= amount
+
+# TEST
+tk = BankAccount("A101", "Nguyễn Văn B")
+tk.Deposit(500000.0)
+tk.Withdraw(150000.0)
+tk.Withdraw(500000.0)
+tk.Deposit(-100.0)
