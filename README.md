@@ -12,6 +12,9 @@ This repository is mainly for reference and personal archiving.
 This repo serves as a record of my learning process.  
 Feel free to browse, learn, or get inspiration — just remember the license terms.
 
+## 📝 Notes
+Please note that many courses and labs included here previously existed as independent repositories. I have merged them into this single archive and removed the old repos to maintain a cleaner and more organized GitHub profile.
+
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).  
 
