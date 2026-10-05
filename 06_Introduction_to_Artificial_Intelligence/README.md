@@ -1,10 +1,10 @@
 # Introduction_to_Artificial_Intelligence
 
 This folder contains exercises and assignments from the university course **"Introduction_to_Artificial_Intelligence"**.  
-The course covers fundamental and advanced principles of database design and management, with a focus on SQL and MS SQL Server.
+The course covers the fundamentals of Artificial Intelligence, including core theoretical concepts (distinguishing ML vs. DL, supervised, unsupervised, and reinforcement learning) along with hands-on practice in basic Python programming.
 
 ## 📘 Course Description
-The course introduces both the theoretical and practical aspects of database systems.  
+The course introduces both the theoretical foundations of AI and practical programming with Python.  
 Topics include:
 - Introduction to Artificial Intelligence
 
